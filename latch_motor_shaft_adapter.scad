@@ -1,11 +1,11 @@
 module latch_shaft(){
    difference(){
       union(){
-         cylinder(r=5.25, h=12, $fn=50);
+         cylinder(r=5.5, h=12, $fn=50);
          for(rot = [0:45:360-45]){
             rotate([0,0,rot]){
                translate([0,0,4.5]){
-                  cube([2.18, 13.4, 9], center=true);
+                  cube([2.6, 14, 10], center=true);
                }
             }
          }
@@ -13,21 +13,21 @@ module latch_shaft(){
 
       rotate([0,0,45]){
          translate([0,0,3]){
-            cube([5.01, 5.01, 21], center=true);
+            cube([4.5, 4.5, 21], center=true);
          }
       }
          
       translate([0,0,3]){
-         cube([5.01, 5.01, 21], center=true);
+         cube([4.5, 4.5, 21], center=true);
       }
    }
 }
 
 module pipe_slot(){
    difference(){
-      cylinder(r=13.235, h=30, $fn=60);
+      cylinder(r=13.5, h=30, $fn=60);
       translate([0,0,-1]){
-         cylinder(r=11.22, h=32, $fn=60);
+         cylinder(r=11, h=32, $fn=60);
       }
    }
 }
