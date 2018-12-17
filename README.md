@@ -1,5 +1,3 @@
-#Tentacle Box
-
-Design files for the pillow blocks and motor mounts for the tentacle box. 
-
-If I get fancy, there will be arduino code too.
+ # The Tentacle Box
+ This repo contains files for a prop for a puzzle game. The prop is a crate with a Lovcrafitian monster escaping from it. 
+ Most of the files are STL files to 3D print parts for the tentacles of the monster, or laser cut motor mounts to rotate the tentacles. 
